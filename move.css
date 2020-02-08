@@ -1,0 +1,53 @@
+#box {
+    border: 6px solid gray;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 70px;
+}
+#circle {
+    border-radius: 50%;
+    border: 6px solid black;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 25px;
+}
+.key {
+    height: 70px;
+    width: 70px;
+    border: 1px solid blue;
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    color:red;
+    backround-color:black;
+}
+.up {
+    top: 210px;
+    left: 193px;
+}
+.down {
+    top: 285px;
+    left: 193px;
+}
+.left {
+    top: 285px;
+    left: 118px;
+}
+.right {
+    top: 285px;
+    right: 110px;
+}
+.up:before {
+    content: '\002191';
+}
+.down:before {
+    content: '\002193';
+}
+.left:before {
+    content: '\002190';
+}
+.right:before {
+    content: '\002192';
+}}
